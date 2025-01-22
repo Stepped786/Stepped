@@ -154,22 +154,56 @@ body {
     padding: 1rem;
     border-top: 1px solid #ddd;
 }
-/* Logo Styling */
-.logo {
-    display: flex;
-    align-items: center;
-}
-
+//* Logo Styling */
 .logo-image {
-    max-height: 50px; /* Adjust height to fit your header */
-    width: auto; /* Maintain aspect ratio */
+    height: 70px; /* Match the header height */
+    width: auto; /* Maintain the aspect ratio */
 }
 
+/* Header Styling */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 2rem; /* Add more padding for spacing */
     background-color: #333;
     color: white;
+}
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+/* Logo Styling */
+.logo {
+    flex: 0 0 auto; /* Keep the logo's size fixed */
+}
+
+.logo-image {
+    height: 70px; /* Adjust the height to match header size */
+    width: auto;
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    display: flex;
+    gap: 2rem; /* Add space between navigation items */
+    margin-left: auto; /* Push the navigation links to the right */
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #007BFF; /* Highlight color on hover */
 }
