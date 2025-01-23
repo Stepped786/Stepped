@@ -358,3 +358,42 @@ header {
     font-size: 1rem;
     line-height: 1.6;
 }
+/* How It Works Section */
+.how-it-works {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: left;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+.how-it-works p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.how-it-works ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.how-it-works ul li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.how-it-works ul li strong {
+    color: #007BFF;
+}
