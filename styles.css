@@ -494,3 +494,42 @@ header {
 .join-form button:hover {
     background-color: #0056b3;
 }
+.logo img {
+    height: 100%; /* Adjusts the height to fill the banner */
+    max-height: 80px; /* Set a maximum height if you want to limit the size */
+    width: auto; /* Maintains the aspect ratio */
+    display: inline-block; /* Ensures proper alignment */
+    vertical-align: middle; /* Aligns it vertically with the text or other elements */
+}
+
+header {
+    display: flex; /* Makes the header a flex container */
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Spreads content evenly across the header */
+    height: 100px; /* Set the height of the banner */
+    padding: 0 20px; /* Adds some horizontal padding */
+}
+
+.nav-links {
+    display: flex; /* Keeps navigation links in a row */
+    gap: 20px; /* Adds spacing between links */
+    list-style: none; /* Removes default list styling */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #fff; /* Changes text color to white */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+.cta-button {
+    background-color: #0073e6; /* Add the desired button color */
+    border: none; /* Remove default button border */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add padding for the button */
+    font-size: 16px; /* Adjust the button text size */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Show pointer on hover */
+}
